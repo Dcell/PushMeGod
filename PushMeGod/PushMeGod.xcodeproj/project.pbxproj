@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B60E32C11E207FEC007E3747 /* CerSelecteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60E32C01E207FEC007E3747 /* CerSelecteViewController.swift */; };
+		B60E32C31E20A37E007E3747 /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60E32C21E20A37E007E3747 /* PushViewController.swift */; };
+		B60E32C91E20A73F007E3747 /* PushBridging.m in Sources */ = {isa = PBXBuildFile; fileRef = B60E32C81E20A73F007E3747 /* PushBridging.m */; };
+		B6B4164B1E162E41009947C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B4164A1E162E41009947C6 /* AppDelegate.m */; };
+		B6B4164E1E162E41009947C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B4164D1E162E41009947C6 /* main.m */; };
+		B6B416511E162E41009947C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B416501E162E41009947C6 /* ViewController.m */; };
+		B6B416531E162E41009947C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B416521E162E41009947C6 /* Assets.xcassets */; };
+		B6B416561E162E41009947C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B416541E162E41009947C6 /* Main.storyboard */; };
+		B6B416601E162F4E009947C6 /* ioSock.c in Sources */ = {isa = PBXBuildFile; fileRef = B6B4165E1E162F4E009947C6 /* ioSock.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B60E32BF1E207FEB007E3747 /* PushMeGod-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PushMeGod-Bridging-Header.h"; sourceTree = "<group>"; };
+		B60E32C01E207FEC007E3747 /* CerSelecteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CerSelecteViewController.swift; sourceTree = "<group>"; };
+		B60E32C21E20A37E007E3747 /* PushViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushViewController.swift; sourceTree = "<group>"; };
+		B60E32C71E20A73F007E3747 /* PushBridging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushBridging.h; sourceTree = "<group>"; };
+		B60E32C81E20A73F007E3747 /* PushBridging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushBridging.m; sourceTree = "<group>"; };
+		B6B416461E162E41009947C6 /* PushMeGod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushMeGod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B416491E162E41009947C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6B4164A1E162E41009947C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6B4164D1E162E41009947C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6B4164F1E162E41009947C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6B416501E162E41009947C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6B416521E162E41009947C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6B416551E162E41009947C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6B416571E162E41009947C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6B4165E1E162F4E009947C6 /* ioSock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioSock.c; sourceTree = "<group>"; };
+		B6B4165F1E162F4E009947C6 /* ioSock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioSock.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6B416431E162E41009947C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B60E32BE1E207FAA007E3747 /* Cer */ = {
+			isa = PBXGroup;
+			children = (
+				B60E32C01E207FEC007E3747 /* CerSelecteViewController.swift */,
+				B60E32BF1E207FEB007E3747 /* PushMeGod-Bridging-Header.h */,
+				B60E32C21E20A37E007E3747 /* PushViewController.swift */,
+				B60E32C71E20A73F007E3747 /* PushBridging.h */,
+				B60E32C81E20A73F007E3747 /* PushBridging.m */,
+			);
+			path = Cer;
+			sourceTree = "<group>";
+		};
+		B6B4163D1E162E41009947C6 = {
+			isa = PBXGroup;
+			children = (
+				B6B416481E162E41009947C6 /* PushMeGod */,
+				B6B416471E162E41009947C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6B416471E162E41009947C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6B416461E162E41009947C6 /* PushMeGod.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6B416481E162E41009947C6 /* PushMeGod */ = {
+			isa = PBXGroup;
+			children = (
+				B6B4165D1E162F4E009947C6 /* Src */,
+				B6B416491E162E41009947C6 /* AppDelegate.h */,
+				B6B4164A1E162E41009947C6 /* AppDelegate.m */,
+				B6B4164F1E162E41009947C6 /* ViewController.h */,
+				B6B416501E162E41009947C6 /* ViewController.m */,
+				B6B416521E162E41009947C6 /* Assets.xcassets */,
+				B6B416541E162E41009947C6 /* Main.storyboard */,
+				B6B416571E162E41009947C6 /* Info.plist */,
+				B6B4164C1E162E41009947C6 /* Supporting Files */,
+			);
+			path = PushMeGod;
+			sourceTree = "<group>";
+		};
+		B6B4164C1E162E41009947C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6B4164D1E162E41009947C6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6B4165D1E162F4E009947C6 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				B60E32BE1E207FAA007E3747 /* Cer */,
+				B6B4165E1E162F4E009947C6 /* ioSock.c */,
+				B6B4165F1E162F4E009947C6 /* ioSock.h */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6B416451E162E41009947C6 /* PushMeGod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B4165A1E162E41009947C6 /* Build configuration list for PBXNativeTarget "PushMeGod" */;
+			buildPhases = (
+				B6B416421E162E41009947C6 /* Sources */,
+				B6B416431E162E41009947C6 /* Frameworks */,
+				B6B416441E162E41009947C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PushMeGod;
+			productName = PushMeGod;
+			productReference = B6B416461E162E41009947C6 /* PushMeGod.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6B4163E1E162E41009947C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ding_qili;
+				TargetAttributes = {
+					B6B416451E162E41009947C6 = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B6B416411E162E41009947C6 /* Build configuration list for PBXProject "PushMeGod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6B4163D1E162E41009947C6;
+			productRefGroup = B6B416471E162E41009947C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6B416451E162E41009947C6 /* PushMeGod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6B416441E162E41009947C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B416531E162E41009947C6 /* Assets.xcassets in Resources */,
+				B6B416561E162E41009947C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6B416421E162E41009947C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B416511E162E41009947C6 /* ViewController.m in Sources */,
+				B6B416601E162F4E009947C6 /* ioSock.c in Sources */,
+				B60E32C31E20A37E007E3747 /* PushViewController.swift in Sources */,
+				B60E32C11E207FEC007E3747 /* CerSelecteViewController.swift in Sources */,
+				B6B4164E1E162E41009947C6 /* main.m in Sources */,
+				B60E32C91E20A73F007E3747 /* PushBridging.m in Sources */,
+				B6B4164B1E162E41009947C6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6B416541E162E41009947C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6B416551E162E41009947C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6B416581E162E41009947C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B6B416591E162E41009947C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B6B4165B1E162E41009947C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PushMeGod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dahuatech.PushMeGod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PushMeGod/Src/Cer/PushMeGod-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B6B4165C1E162E41009947C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PushMeGod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dahuatech.PushMeGod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PushMeGod/Src/Cer/PushMeGod-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6B416411E162E41009947C6 /* Build configuration list for PBXProject "PushMeGod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B416581E162E41009947C6 /* Debug */,
+				B6B416591E162E41009947C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6B4165A1E162E41009947C6 /* Build configuration list for PBXNativeTarget "PushMeGod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B4165B1E162E41009947C6 /* Debug */,
+				B6B4165C1E162E41009947C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6B4163E1E162E41009947C6 /* Project object */;
+}
